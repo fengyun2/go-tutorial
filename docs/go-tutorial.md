@@ -73,3 +73,12 @@ func main() {
 	fmt.Println("The value:", v, "Present?", ok)
 }
 ```
+
+### slice
+slice 指向数组的值,并且同时包含了长度信息。
+[]T 是一个元素类型为 T 的 slice
+
+slice 的零值是 nil。
+一个 nil 的 slice 的长度和容量是 0。
+
+[](https://github.com/fengyun2/go-tutorial/src/lesson01/slice.go)
